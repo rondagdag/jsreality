@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A-Frame - AR.js Demo 7</title>
+    <script src="js/lib/aframe-v0.7.0.min.js"></script>
+    <script src='js/lib/aframe-ar.min.js'></script>
+    <script src="https://3d.io/releases/3dio-js/1.x.x-beta/3dio.min.js"></script>
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='trackingMethod: best;'>
+        <a-entity camera></a-entity>
+        <a-marker preset='hiro'>
+            <a-entity io3d-furniture="id:b9c3b8b9-fcc5-45dd-bc54-81ff68ae4c2b" position="0 0 0"></a-entity>
+        </a-marker>
+    </a-scene>
+</body>
+
+</html>
