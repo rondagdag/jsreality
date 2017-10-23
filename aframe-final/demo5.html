@@ -12,7 +12,7 @@
 <body>
     <a-scene main>
         <a-camera id="camera" position="0 1.6 2"></a-camera>
-        <a-gltf-model id="model" src="models/skull/scene.gltf" position="0 3 -1" gamepad-controls="invertAxisY: true">
+        <a-gltf-model id="model" src="models/skull/skull.gltf" position="0 3 -1" gamepad-controls="invertAxisY: true">
 
             <a-animation attribute="rotation" begin="spinLeft" dur="3000" from="0 0 0" to="0 -360 0" easing="ease-expo" repeat="0"></a-animation>
             <a-animation attribute="rotation" begin="spinRight" dur="3000" from="0 0 0" to="0 360 0" easing="ease-expo" repeat="0"></a-animation>
@@ -26,4 +26,5 @@
         <a-sky color="#333"></a-sky>
     </a-scene>
 </body>
+
 </html>

@@ -8,17 +8,18 @@ function cameraSetup() {
     positionCamera();
 }
 
-function positionCamera(){
-    CAMERA.setAttribute('position', {
-        x: 0,
-        y: 3.5,
-        z: 5.5
-    });
+function positionCamera() {
+    // change position of camera
+    // CAMERA.setAttribute('position', {
+    //     x: 0,
+    //     y: 3.5,
+    //     z: 5.5
+    // });
 }
 
 function addSpheres() {
     sphereData.forEach(function(sphereData) {
-        addSphere(sphereData)
+        // create new spheres - addSphere(sphereData)
     });
 }
 
@@ -31,8 +32,7 @@ function addSphere(sphereData) {
     SCENE.appendChild(sphere);
 }
 
-var sphereData = [
-    {
+var sphereData = [{
         id: 0,
         color: '#c11717',
         position: {
@@ -68,7 +68,8 @@ var sphereData = [
             z: 0
         },
         radius: '.45'
-    }, {
+    },
+    {
         id: 4,
         color: '#068428',
         position: {

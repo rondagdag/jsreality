@@ -2,17 +2,17 @@ function main() {
     var picklerick = document.getElementById('picklerick');
     var prsound = document.getElementById('prsound');
 
-    picklerick.addEventListener('keyup:KeyO', function() {
-        rotate(picklerick, 'left');
-    });
+    // picklerick.addEventListener('keyup:KeyO', function() {
+    //     rotate(picklerick, 'left');
+    // });
 
-    picklerick.addEventListener('keyup:KeyP', function() {
-        rotate(picklerick, 'right');
-    });
+    // picklerick.addEventListener('keyup:KeyP', function() {
+    //     rotate(picklerick, 'right');
+    // });
 
-    picklerick.addEventListener('keyup:KeyL', function() {
-        prsound.components.sound.playSound();
-    });
+    // picklerick.addEventListener('keyup:KeyL', function() {
+    //     prsound.components.sound.playSound();
+    // });
 }
 
 function rotate(el, direction) {

@@ -1,6 +1,6 @@
 function sceneSetup() {
     var pumpkin = document.getElementById('pumpkin');
-    doLeap(pumpkin);
+    //doLeap(pumpkin);
 }
 
 function doLeap(el) {
